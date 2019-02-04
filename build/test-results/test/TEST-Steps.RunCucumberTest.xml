@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Steps.RunCucumberTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-QNT5PS3" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: deneme
+
+  Scenario: cucumber denemesi         ?[90m# appium.feature:2?[0m
+    ?[33mWhen ?[0m?[33muygulamamizi cihazdan acalim?[0m
+Feature: deneme
+
+  Scenario: cucumber deneme ?[90m# ekin.feature:2?[0m
+    ?[33mWhen ?[0m?[33mweb link?[0m
+Feature: workshop
+
+  Scenario: appium workshop ?[90m# meryem.feature:2?[0m
+    ?[33mWhen ?[0m?[33mappium calis?[0m
+
+3 Scenarios (?[33m3 undefined?[0m)
+3 Steps (?[33m3 undefined?[0m)
+0m0,000s
+
+
+You can implement missing steps with the snippets below:
+
+@When("^uygulamamizi cihazdan acalim$")
+public void uygulamamizi_cihazdan_acalim() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^web link$")
+public void web_link() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^appium calis$")
+public void appium_calis() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

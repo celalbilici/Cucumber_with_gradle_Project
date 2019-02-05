@@ -1,11 +1,10 @@
 package Steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,7 +13,13 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
+import java.util.Scanner;
 
+import static io.appium.java_client.touch.WaitOptions.waitOptions;
+import static io.appium.java_client.touch.offset.PointOption.point;
+import static java.time.Duration.ofMillis;
+import static java.time.Duration.ofSeconds;
 
 
 public class appium {
@@ -44,9 +49,61 @@ public class appium {
             driver.findElementById("top_band").click();
             driver.findElementById("login_tckno_edit_text").sendKeys(identity_number);
             driver.findElementById("login_phone_edit_text").sendKeys(telephone_number);
-            //throw new PendingException();
+            Thread.sleep(10000);
         }
 
 
+    @And("musteriye ait islemler goruntelenir")
+    public void musteriyeAitIslemlerGoruntelenir() throws Throwable{
+        Thread.sleep(3000);
+
+        driver.findElementByAccessibilityId("Yan menüyü aç").click();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/txt_view_data_birikiminiz_amount").click();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/view_data_row_2").click();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/rdb_no").click();
+        Thread.sleep(3000);
+
     }
+
+    @And("login butonu kaydırılır")
+    public void loginButonuKaydırılır() throws Throwable {
+        new TouchAction(driver)
+                .press(point(500,1168))
+                .waitAction(waitOptions(ofMillis(1000)))
+                .moveTo(point(500, 513))
+                .release().perform();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/login_button").click();
+        Thread.sleep(10000);
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/login_steptwo_button").click();
+
+
+
+    }
+
+    @And("katki payi degisikligi yapilir")
+    public void katkiPayiDegisikligiYapilir() throws Throwable {
+         //driver.findElementById("com.vizyoneks.ziraatemeklilik:id/btn_back").click();
+        //driver.findElementByAccessibilityId("Yan menüyü aç").click();
+       // driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.ExpandableListView/android.widget.LinearLayout[1]/android.widget.TextView").click();
+        Thread.sleep(3000);
+        driver.findElementByAccessibilityId("Yan menüyü aç").click();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/txt_view_odenen_toplam_tutar").click();
+        Thread.sleep(2000);
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/layout_home_adress_header").click();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/btn_add_or_update_home_adress").click();
+        driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button[2]").click();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/txt_adress").clear();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/txt_adress").sendKeys("Leblebi caddesi nohut sokak no:11");
+
+        new TouchAction(driver)
+                .tap(point(995,1792))
+                .waitAction(waitOptions(Duration.ofMillis(250))).perform();
+        driver.findElementById("com.vizyoneks.ziraatemeklilik:id/btn_save").click();
+        driver.findElementById("android:id/button1").click();
+        driver.findElementByAccessibilityId("Çıkış").click();
+        driver.findElementById("android:id/button1").click();
+
+
+    }
+}
 

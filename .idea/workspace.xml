@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e4806f-8e6b-4f2a-95c1-2f3a7285fb94" name="Default Changelist" comment="" />
+    <list default="true" id="54e4806f-8e6b-4f2a-95c1-2f3a7285fb94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ekindeneme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/appium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/appium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/meryem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ekindeneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ekindeneme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/appium.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/appium.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/meryem.feature" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -38,17 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/appium.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/appium.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ekin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,28 +65,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ekindeneme.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/appium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" lean-forward="true" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/meryem.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+            <state relative-caret-position="187">
+              <caret line="101" column="61" lean-forward="true" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +84,10 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,27 +112,28 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/meryem.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/meryem.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/ekindeneme.java" />
         <option value="$PROJECT_DIR$/src/test/java/methods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ekindeneme.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/ekindeneme.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/appium.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/appium.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="589" />
-    <option name="y" value="-14" />
+    <option name="x" value="677" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +148,45 @@
             </path>
             <path>
               <item name="newGradleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="newGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="newGradleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="newGradleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newGradleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newGradleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newGradleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newGradleProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549283651408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549370208378" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Steps" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -188,7 +224,7 @@
   </component>
   <component name="RunManager" selected="Cucumber java.Scenario: cucumber denemesi">
     <configuration name="ekindeneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ekindeneme" />
+      <option name="MAIN_CLASS_NAME" value="Steps.ekindeneme" />
       <module name="newGradleProject.newGradleProject.test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,34 +326,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 13h 50m 10s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 19m 29s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 13h 50m 52s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 20m 00s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 13h 51m 36s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 20m 08s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 14h 12m 47s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 21m 04s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 14h 14m 01s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 21m 55s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 14h 25m 05s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 23m 01s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 14h 26m 44s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 24m 28s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 14h 29m 34s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 25m 37s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 14h 42m 17s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 30m 56s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__cucumber_denemesi - 2019.02.04 at 14h 54m 07s.xml">
+    <history-entry file="Scenario__cucumber_denemesi - 2019.02.05 at 15h 36m 02s.xml">
       <configuration name="Scenario: cucumber denemesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -331,10 +367,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -344,7 +379,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3112245" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3282313" />
@@ -406,50 +441,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/acaba.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/deneme.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ziraatEmeklilik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/dede.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ziraat.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ziraatEmeklilik.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/dede.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ziraat.java" />
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2802" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ziraatEmeklilik.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ziraatApk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ziraatEmeklilik.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ziraatApk.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/ekin.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -457,26 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/meryem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ekin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/meryem.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/meryem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -497,6 +479,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/methods.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/meryem.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -504,34 +494,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/7.0.0/5cd04e3be460d8bb8636de93d2ec35a115e871b2/java-client-7.0.0-sources.jar!/io/appium/java_client/TouchAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/methods.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/appium.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ekindeneme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-end-column="25" />
+        <state relative-caret-position="-952">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/appium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="187">
+          <caret line="101" column="61" lean-forward="true" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/appium.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ekindeneme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/ekin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,19 +3,23 @@
   <properties/>
   <system-out><![CDATA[Feature: deneme
 
-  Scenario: cucumber denemesi         ?[90m# appium.feature:2?[0m
+  Scenario: cucumber denemesi                                                          ?[90m# appium.feature:2?[0m
     ?[33mWhen ?[0m?[33muygulamamizi cihazdan acalim?[0m
+    ?[33mWhen ?[0m?[33m"46726479218" tc ve "5318823134" telefon bilgisi ile uygulamaya giris yapalim?[0m
+    ?[33mAnd ?[0m?[33mlogin butonu kaydirilir?[0m
+    #And musteriye ait islemler goruntelenir
+    ?[33mAnd ?[0m?[33mkatki payi degisikligi yapilir?[0m
 Feature: deneme
 
   Scenario: cucumber deneme ?[90m# ekin.feature:2?[0m
     ?[33mWhen ?[0m?[33mweb link?[0m
-Feature: workshop
+Feature: emeklilik web sayfa testi
 
-  Scenario: appium workshop ?[90m# meryem.feature:2?[0m
-    ?[33mWhen ?[0m?[33mappium calis?[0m
+  Scenario: login olma ve inceleme yapma                                       ?[90m# ziraatEmeklilikWebTest.feature:2?[0m
+    ?[33mGiven ?[0m?[33msu web "https://www.ziraatemeklilik.com.tr/" sayfasina giris yapalim?[0m
 
 3 Scenarios (?[33m3 undefined?[0m)
-3 Steps (?[33m3 undefined?[0m)
+6 Steps (?[33m6 undefined?[0m)
 0m0,000s
 
 
@@ -27,14 +31,32 @@ public void uygulamamizi_cihazdan_acalim() throws Throwable {
     throw new PendingException();
 }
 
+@When("^\"(.*?)\" tc ve \"(.*?)\" telefon bilgisi ile uygulamaya giris yapalim$")
+public void tc_ve_telefon_bilgisi_ile_uygulamaya_giris_yapalim(String arg1, String arg2) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^login butonu kaydirilir$")
+public void login_butonu_kaydirilir() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^katki payi degisikligi yapilir$")
+public void katki_payi_degisikligi_yapilir() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
 @When("^web link$")
 public void web_link() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }
 
-@When("^appium calis$")
-public void appium_calis() throws Throwable {
+@Given("^su web \"(.*?)\" sayfasina giris yapalim$")
+public void su_web_sayfasina_giris_yapalim(String arg1) throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }

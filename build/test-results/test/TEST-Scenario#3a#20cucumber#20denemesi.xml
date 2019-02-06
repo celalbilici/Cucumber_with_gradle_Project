@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: cucumber denemesi" tests="2" skipped="1" failures="0" errors="0" timestamp="2019-02-04T08:07:06" hostname="DESKTOP-QNT5PS3" time="0.004">
+<testsuite name="Scenario: cucumber denemesi" tests="5" skipped="4" failures="0" errors="0" timestamp="2019-02-06T06:22:32" hostname="DESKTOP-QNT5PS3" time="0.006">
   <properties/>
   <testcase name="When uygulamamizi cihazdan acalim" classname="Scenario: cucumber denemesi" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="classMethod" classname="Scenario: cucumber denemesi" time="0.005"/>
+  <testcase name="When &quot;46726479218&quot; tc ve &quot;5318823134&quot; telefon bilgisi ile uygulamaya giris yapalim" classname="Scenario: cucumber denemesi" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And login butonu kaydirilir" classname="Scenario: cucumber denemesi" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And katki payi degisikligi yapilir" classname="Scenario: cucumber denemesi" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: cucumber denemesi" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

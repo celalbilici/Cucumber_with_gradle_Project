@@ -65,8 +65,8 @@ public class appium {
 
     }
 
-    @And("login butonu kaydırılır")
-    public void loginButonuKaydırılır() throws Throwable {
+    @And("login butonu kaydirilir")
+    public void loginButonuKaydirilir() throws Throwable {
         new TouchAction(driver)
                 .press(point(500,1168))
                 .waitAction(waitOptions(ofMillis(1000)))

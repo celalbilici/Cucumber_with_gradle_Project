@@ -15,11 +15,12 @@ Feature: deneme
     ?[33mWhen ?[0m?[33mweb link?[0m
 Feature: emeklilik web sayfa testi
 
-  Scenario: login olma ve inceleme yapma                                       ?[90m# ziraatEmeklilikWebTest.feature:2?[0m
-    ?[33mGiven ?[0m?[33msu web "https://www.ziraatemeklilik.com.tr/" sayfasina giris yapalim?[0m
+  Scenario: login                                                                                     ?[90m# ziraatEmeklilikWebTest.feature:2?[0m
+    ?[33mGiven ?[0m?[33msu web "https://besonline.ziraatemeklilik.com.tr/main/p/Login.aspx" sayfasina giris yapalim?[0m
+    ?[33mAnd ?[0m?[33m"İletişim Bilgileri" sekmesine tikladim?[0m
 
 3 Scenarios (?[33m3 undefined?[0m)
-6 Steps (?[33m6 undefined?[0m)
+7 Steps (?[33m7 undefined?[0m)
 0m0,000s
 
 
@@ -57,6 +58,12 @@ public void web_link() throws Throwable {
 
 @Given("^su web \"(.*?)\" sayfasina giris yapalim$")
 public void su_web_sayfasina_giris_yapalim(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^\"(.*?)\" sekmesine tikladim$")
+public void sekmesine_tikladim(String arg1) throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }

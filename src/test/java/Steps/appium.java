@@ -41,6 +41,17 @@ public class appium {
             driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"), caps);
             wait = new WebDriverWait(driver, 10);
 
+           // DesiredCapabilities capss = new DesiredCapabilities();
+            //capss.setCapability("deviceName", "HB0SVZ81");
+            //capss.setCapability("udid", "67ba9002");
+           // capss.setCapability("platformName", "Android");
+            //capss.setCapability("platformVersion", "7.0");
+           // capss.setCapability("app", "C:\\Users\\celal\\Desktop\\Mobil sube_com.vizyoneks.ziraatemeklilik.apk");
+            //capss.setCapability("appPackage", "com.vizyoneks.ziraatemeklilik");
+          //  capss.setCapability("appActivity", "com.vizyoneks.ziraatemeklilik.activity.MainNewActivity");
+           // driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4724/wd/hub"), capss);
+          //  wait = new WebDriverWait(driver, 10);
+
         }
         @Test
         @When("^\"(.*?)\" tc ve \"(.*?)\" telefon bilgisi ile uygulamaya giris yapalim$")
@@ -104,6 +115,10 @@ public class appium {
         driver.findElementById("android:id/button1").click();
 
 
+    }
+
+    @And("ve ne yapsa")
+    public void veNeYapsa() {
     }
 }
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: cucumber deneme" tests="2" skipped="1" failures="0" errors="0" timestamp="2019-02-06T06:22:32" hostname="DESKTOP-QNT5PS3" time="0.001">
+<testsuite name="Scenario: cucumber deneme" tests="2" skipped="1" failures="0" errors="0" timestamp="2019-02-07T12:34:44" hostname="DESKTOP-QNT5PS3" time="0.001">
   <properties/>
   <testcase name="When web link" classname="Scenario: cucumber deneme" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="classMethod" classname="Scenario: cucumber deneme" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: cucumber deneme" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
